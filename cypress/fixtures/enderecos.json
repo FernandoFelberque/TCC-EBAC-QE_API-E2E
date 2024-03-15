@@ -1,0 +1,58 @@
+[
+    {
+        "nome": "Fernando",
+        "sobrenome": "Felberque",
+        "empresa": "TCC",
+        "pais": "Brasil",
+        "enderecoRua": "Rua persona N3",
+        "enderecoOpcional" : "Casa",
+        "cidade": "Belo Horizonte",
+        "estado": "Minas Gerais",
+        "CEP": "59020-050",
+        "celular": "23484662",
+        "email": "FernandoTCC@ebac.com"
+    },
+
+    {
+        "nome": "Sara",
+        "sobrenome": "Castelo",
+        "empresa": "Nintendo",
+        "pais": "Canada",
+        "enderecoRua": "Rua Majoras Mask",
+        "enderecoOpcional" : "Apartamento",
+        "cidade": "Toronto",
+        "estado": "Manitoba",
+        "CEP": "M5V3L9",
+        "celular": "33494762",
+        "email": "saracastelonintendo@ebac.com"
+    },
+
+    {
+        "nome": "Bruno",
+        "sobrenome": "Carvalho",
+        "empresa": "Steam",
+        "pais": "Argentina",
+        "enderecoRua": "Rua Metal Gear Phantom Pain",
+        "enderecoOpcional" : "Apartamento",
+        "cidade": "Hermoso Horizonte",
+        "estado": "Buenos Aires",
+        "CEP": "1234567",
+        "celular": "73085502",
+        "email": "brunocarvalho17@ebac.com"
+    },
+
+    {
+        "nome": "Cara",
+        "sobrenome": "Invalido",
+        "empresa": "Vazia",
+        "pais": "Argentina",
+        "enderecoRua": "",
+        "enderecoOpcional" : "casa",
+        "cidade": "",
+        "estado": "Buenos Aires",
+        "CEP ": "08930-1150",
+        "celular": "73085502",
+        "email": "caraInvalido13@ebac.com"
+    }
+
+]
