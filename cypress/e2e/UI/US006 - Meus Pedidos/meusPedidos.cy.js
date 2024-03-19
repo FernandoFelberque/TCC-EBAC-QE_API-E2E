@@ -22,7 +22,7 @@ describe('Funcionalidade da página Meus Pedidos', () => {
         pedidosPage.visualizar()
         cy.get('.woocommerce-order-details').should('exist')
         cy.get('.woocommerce-customer-details').should('exist')
-
+        
     });
 
 });
