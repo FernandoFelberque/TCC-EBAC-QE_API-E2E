@@ -1,14 +1,9 @@
 [
-    
+        
     {
-        "id": "5655",
-        "code": "10Contao"
-    }, 
-
-    {
-        "code": "nomeCupom",
+        "code": "10Contao",
         "amount": "10",
         "discount_type": "fixed_product",
-        "description": "Cupom de desconto de teste"
+        "description": "Cupom de desconto TCC"
     }
 ]
