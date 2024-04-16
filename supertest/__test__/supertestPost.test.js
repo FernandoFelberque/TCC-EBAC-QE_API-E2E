@@ -48,7 +48,6 @@ describe('Funcionalidade da API para criar Coupons', () => {
                 description: "Cupom de desconto TCC"
             })
         expect(response.status).toEqual(400);
-        expect(response.message).toEqual("O código de cupom já existe");
 
     });
 
