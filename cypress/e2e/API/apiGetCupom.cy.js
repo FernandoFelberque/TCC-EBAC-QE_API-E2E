@@ -44,7 +44,7 @@ describe('Funcionalidade da API para buscar Coupons', () => {
 
     });
 
-    it('Deve buscar coupons com GET{ID}', () => {
+    it('Deve buscar coupons com GET{ID} existente', () => {
         cy.request({
             method: "GET",
             url: "wp-json/wc/v3/coupons/" + ID,
@@ -60,6 +60,23 @@ describe('Funcionalidade da API para buscar Coupons', () => {
         })
 
     });
+
+    it('Deve buscar coupons com GET{ID} inexistente', () => {
+        cy.request({
+            method: "GET",
+            url: "wp-json/wc/v3/coupons/adcb007wa",
+            auth: {
+                user: "admin_ebac",
+                pass: "@admin!&b@c!2022"
+            },
+
+
+        }).should((response) => {
+            expect(response.status).equal(404)
+        })
+
+    });
+
 
    afterEach(() => {
     cy.deleteCupom(ID)
