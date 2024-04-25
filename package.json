@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit" 
+    "testSupertest": "jest --forceExit",
+    "testCy": "npx cypress run --browser chrome",
+    "cy:dash":"npx cypress run --record --key 7d52715b-ad61-411c-a962-04dec00cb22a"
   },
   "keywords": [],
   "author": "",
