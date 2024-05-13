@@ -20,5 +20,9 @@ jobs:
         with:
           install-command: npm install
           browser: chrome
+          record: true
+        env:
+         CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
+         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           
 
