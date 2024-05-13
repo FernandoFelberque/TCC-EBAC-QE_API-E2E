@@ -1,17 +1,17 @@
 [
   {
-    "usuario": "FernandoTCCPedidos@ebac.com",
-    "senha": "tcc123"
+    "usuario": "user1_ebac",
+    "senha": "psw!ebac@test"
   },
   {
-    "usuario": "FernandoTCCEnderecos@ebac.com",
-    "senha": "tcc123"
+    "usuario": "user2_ebac",
+    "senha": "psw!ebac@test"
   },
 
   {
-    "usuario": "FernandoTCCPerfil@ebac.com",
-    "senha": "3:)7KE!XQw]y",
-    "novaSenha": "3:)7KE!XQw]y"
+    "usuario": "user3_ebac@ebac.com",
+    "senha": "psw!ebac@test",
+    "novaSenha": "psw!ebac@test"
   }
 
 ]
