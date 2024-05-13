@@ -38,7 +38,7 @@ describe('Funcionalidade da página Detalhes da Conta', () => {
 
     });
 
-    it.only('Deve Alterar o email do usuario com sucesso', () => {
+    it('Deve Alterar o email do usuario com sucesso', () => {
         detalhesContaPage.alterarEmail(
             usuario[2].usuario,
         )
