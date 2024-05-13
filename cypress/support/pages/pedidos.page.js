@@ -3,7 +3,7 @@
 export const pedidosPage = {
 
     listaPedidos (){
-        return cy.get('[class="woocommerce-orders-table__row woocommerce-orders-table__row--status-processing order"]')
+        return cy.get('.woocommerce-MyAccount-content')
     },
 
     visualizar(){
