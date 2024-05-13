@@ -1,7 +1,7 @@
 /// <reference types ="cypress"/>
 
 const logar = require('../../../fixtures/usuarioAtivo.json')
-const editarInfos = require('../../../fixtures/Enderecos.json')
+const editarInfos = require('../../../fixtures/enderecos.json')
 const enderecoPage = require('../../../support/pages/enderecosBeS.page')
 const usuario = require('../../../fixtures/usuarioAtivo.json')
 const detalhesContaPage = require('../../../support/pages/detalhesConta.page')
