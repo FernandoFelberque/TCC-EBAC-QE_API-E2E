@@ -3,6 +3,7 @@
 Trabalho de Conclusão de Curso: 
 
 -Teste de API utilizando Cypress e Superteste com Jest
+
 -Teste E2E utilizando Cypress
 
 CI/CD - realizados utilizando Github Actions e Cypress Cloud.
